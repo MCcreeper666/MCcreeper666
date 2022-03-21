@@ -1,0 +1,4 @@
+from selenium inport webdriver
+brower = webdriver.Chrome()
+brower.get(https://visualping.io/)
+brower.find_element(webdriver.common.by.By.XPATH, '')
