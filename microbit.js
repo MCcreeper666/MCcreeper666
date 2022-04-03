@@ -1,4 +1,4 @@
-//马达 (p0)
+//馬達 (p0)
 basic.forever(function () {
     pins.servoWritePin(AnalogPin.P0, 0)
     basic.pause(1000)
@@ -14,7 +14,7 @@ basic.forever(function () {
     basic.showNumber(pins.analogReadPin(AnalogPin.P0))
 })
 
-//显示屏
+//顯示屏
 //GND -> GND (p20)
 //VCC -> 3.3V (p20)
 //SCL -> SIG (p19)
